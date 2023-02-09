@@ -1,7 +1,8 @@
-{"nombre": "santiago", "contrasenia": "asdasdas"}
-{"nombre": "pedro", "contrasenia": "123456678"}
-{"nombre": "juan", "contrasenia": "78945678"}
-{"nombre": "juan", "contrasenia": "12345678"}
-{"nombre": "pablo", "contrasenia": "123456sda"}
-{"nombre": "asdasd", "contrasenia": "456456456"}
-{"nombre": "juan pedro", "contrasenia": "45645645"}
+{
+  "nombre": "santiago",
+  "contrasenia": "45678958"
+},
+{
+  "nombre": "asdasda",
+  "contrasenia": "8524asdda"
+},
