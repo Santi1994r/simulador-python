@@ -6,3 +6,11 @@
   "nombre": "asdasda",
   "contrasenia": "8524asdda"
 },
+{
+  "nombre": "pedro",
+  "contrasenia": "12345678"
+},
+{
+  "nombre": "juan",
+  "contrasenia": "45645645"
+},

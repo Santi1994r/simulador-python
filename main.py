@@ -1,7 +1,7 @@
 import json
 
 
-def login():
+def register():
     name = input("Ingrese su nombre").lower()
     password = input("Ingrese su password. Minimo 8 caracteres y maximo 15.").lower()
 
@@ -33,13 +33,22 @@ def exist_user():
     data_users = json.loads(show_DB()) 
     return data_users    
 
+# Quiero que con esta funcion hacer la validacion de si existe el usuario. Quiero pasar lo que tengo en el txt a formato dict pero tengo ese error.
+# def login():
+#     with open("DB.txt", "r") as file:
+#         content = file.read()
+#         convert = json.loads(content) # Tengo un error con el loads y nose como resolverlo
+#     print(convert)
+
+ 
+
 validate = True
 
 while validate:
     option_main = input("Bienvenido al curso de coder de python \n¿Que desea hacer?:\n (1)Registrarme\n (2)Ver usuarios\n (3)Salir").lower()
     
     if (option_main == "1"):
-        upload_to_DB(login())
+        upload_to_DB(register())
         break
     elif (option_main == "2"):
         print("Los usuarios ingresados son: " + show_DB())
@@ -49,9 +58,6 @@ while validate:
         break
     else:
         print("Opción incorrecta")
+        validate = True
         
-    option_main = input("¿Quiere seguir operando?\n -Si\n -No")
-    if option_main == "si":
-        continue
-    elif option_main == "no":
-        break
+   
