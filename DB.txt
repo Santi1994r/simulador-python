@@ -2,3 +2,7 @@
   "nombre": "juan",
   "contrasenia": "dasdsasdsadas"
 },
+{
+  "nombre": "pedro",
+  "contrasenia": "45678985"
+},
