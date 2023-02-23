@@ -12,8 +12,10 @@ class Cliente:
     def buy(self, product, quantity):
         cart.append(product)
         return f'El cliente {self.name} ha elejido {quantity} unidad/es del producto {product}\nSe le ha mandado su factura a su mail {self.email}'
-    def receipt(self):
-        return f'Usted compro '
+    def age_control(self):
+        if(self.age < 18):
+            return 'Eres menor de edad, debes venir con tus padres o traer una autorización de ellos para poder hacer una compra.'
+        return f'Usted puede comprar'
     def __str__(self):
         return f'El usuario {self.email} ha sido registrado'
     
@@ -24,3 +26,11 @@ class Cliente:
 # print(cliente1.receipt())
 # print(cliente2.buy('mouse', 2))
 # print(f'el carrito contiene: {cart}')
+
+class User(Cliente):
+    def __init__(self, name, surname, email, age, password):
+        super().__init__(name, surname, email, age)
+        self.password = password    
+    def __str__(self):
+        return f'El usuario {self.name} esta conectado'   
+        
