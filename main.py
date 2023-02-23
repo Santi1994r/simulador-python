@@ -1,6 +1,5 @@
 import json
 
-
 def register():
     name = input("Ingrese su nombre").lower()
     password = input("Ingrese su password. Minimo 8 caracteres y maximo 15.").lower()
@@ -33,21 +32,7 @@ def exist_user():
     data_users = json.loads(show_DB()) 
     return data_users    
 
-#   Esto me marco el tutor corrertor que tengo que agregar
-# En cuanto a tu codigo, esta bien pero aun le falta algo importante: en el logeo. se debe validar que el usuario y clave ingresado este dentro de nuestra base de datos. 
-# Por ultimo ojo con los. "breaks" ya que te rompen el loop y la idea es que salga solo con la opcion de "salir", no?
-# Para mi el trabajo esta correcto pero si poder agregar la validacion la subimos a optimo.
 
-
-
-# Quiero que con esta funcion hacer la validacion de si existe el usuario. Quiero pasar lo que tengo en el txt a formato dict pero tengo ese error.
-# def login():
-#     with open("DB.txt", "r") as file:
-#         content = file.read()
-#         convert = json.loads(content) # Tengo un error con el loads y nose como resolverlo
-#     print(convert)
-
- 
 
 validate = True
 
