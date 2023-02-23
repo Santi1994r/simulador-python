@@ -1,16 +1,4 @@
 {
-  "nombre": "santiago",
-  "contrasenia": "45678958"
-},
-{
-  "nombre": "asdasda",
-  "contrasenia": "8524asdda"
-},
-{
-  "nombre": "pedro",
-  "contrasenia": "12345678"
-},
-{
   "nombre": "juan",
-  "contrasenia": "45645645"
+  "contrasenia": "dasdsasdsadas"
 },
