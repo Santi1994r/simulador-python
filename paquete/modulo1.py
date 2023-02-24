@@ -19,13 +19,7 @@ class Cliente:
     def __str__(self):
         return f'El usuario {self.email} ha sido registrado'
     
-# print(cliente1)
-# print(cliente1.welcome())
-# print(cliente1.count)
-# print(cliente1.buy('computadora', 3))
-# print(cliente1.receipt())
-# print(cliente2.buy('mouse', 2))
-# print(f'el carrito contiene: {cart}')
+    
 
 class User(Cliente):
     def __init__(self, name, surname, email, age, password):
